@@ -1,0 +1,36 @@
+Sl No,Element Name,Element Type,Locator Name,Locator Value
+1,.in,link,id,nav-logo-sprites
+,,,class,nav-logo-link nav-progressive-attribute
+,,,partialLinkText,.in
+2,glow-ingress-line2,dropdown,xpath,"//DIV[@id='glow-ingress-block']/descendant::SPAN[contains(.,'Update location')]"
+3,Search Amazon.in,textfield,id,twotabsearchtextbox
+,,,name,field-keywords
+,,,xpath,"//INPUT[@id=""twotabsearchtextbox""]"
+,,,xpath,"//INPUT[@id=""twotabsearchtextbox""]"
+4,Go,button,id,nav-search-submit-button
+,,,xpath,"//INPUT[@id=""nav-search-submit-button""]"
+,,,xpath,"//INPUT[@id=""nav-search-submit-button""]"
+5,EN,link,id,icp-nav-flyout
+,,,xpath,"//A[@id=""icp-nav-flyout""]"
+6,nav-link-accountList-nav-line-1,dropdown,xpath,"//span[normalize-space(.)='Hello, sign in']"
+7,"Returns
+  & Orders",link,id,nav-orders
+,,,partialLinkText,"& Orders
+"
+,,,xpath,"//A[@id=""nav-orders""]"
+8,"0
+      
+    
+    
+      
+         
+      
+      
+        Cart",link,id,nav-cart
+,,,partialLinkText,Cart
+,,,xpath,"//A[@id=""nav-cart""]"
+9,All,link,id,nav-hamburger-menu
+,,,xpath,"//A[@id=""nav-hamburger-menu""]"
+10,Amazon miniTV,link,linkText,Amazon miniTV
+,,,xpath,//a[normalize-space(.)='Amazon miniTV']
+,,,xpath,//*[normalize-space(.)='Amazon miniTV']
